@@ -1,0 +1,8 @@
+$filename='./Public/execl/2016-10-25/111.xls';
+// $filename='./Public/execl/2016-10-25/580eb9b1a68f6.xlsx';
+import("Org.Yufan.ExcelReader");
+$ExcelReader=new \ExcelReader();
+$arr=$ExcelReader->reader_excel($filename);
+echo "<pre>";
+print_r($arr);
+echo "</pre>";

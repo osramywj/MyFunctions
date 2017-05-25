@@ -1,0 +1,57 @@
+-- phpMyAdmin SQL Dump
+-- version 4.1.14
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: 2016-10-25 07:01:45
+-- 服务器版本： 5.6.17
+-- PHP Version: 5.5.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `excel`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `dc`
+--
+
+CREATE TABLE IF NOT EXISTS `dc` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL COMMENT '姓名',
+  `money` decimal(15,2) NOT NULL COMMENT '金额',
+  `time` int(10) unsigned NOT NULL COMMENT '时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+
+--
+-- 转存表中的数据 `dc`
+--
+
+INSERT INTO `dc` (`id`, `username`, `money`, `time`) VALUES
+(1, 'yufan956932910', '5000000.88', 1477369348),
+(2, 'qq956932910', '10000000.88', 1477369348),
+(3, 'qq956932910', '10000000.88', 1477369350),
+(4, 'yufan956932910', '5000000.88', 1477369348),
+(5, 'qq956932910', '10000000.88', 1477369348),
+(6, 'qq956932910', '10000000.88', 1477369350),
+(7, '赵鹏', '5000000.88', 1477369348),
+(8, 'qq956932910', '10000000.88', 1477369348),
+(9, 'qq956932910', '10000000.88', 1477369350),
+(10, 'yufan956932910', '5000000.88', 1477369348),
+(11, 'qq956932910', '10000000.88', 1477369348),
+(12, 'qq956932910', '10000000.88', 1477369350);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
