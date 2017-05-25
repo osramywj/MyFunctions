@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>{$userInfo.nickname}</h1>
+<h1>{$userInfo['sex']==1?'男':'女'}</h1>
+<h1>{$userInfo['province']}</h1>
+<h1>{$userInfo['city']}</h1>
+<p><img src="{$userInfo['headimgurl']}" alt=""/></p>
+<p>{:date('Y-m-d H:i:s',$userInfo['subscribe_time'])}</p>
+<h1>{$userInfo.city}</h1>
+</body>
+</html>
