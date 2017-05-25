@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+{*file只是文件名不含路径*}
+{config_load file="foo.conf"}
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>{$title}</h1>
+<p>{$content}</p>
+{$content|highLight:'cyan':'bold':'30px'}
+{substr($content,0,10)}
+<p>{$content|strlen}</p>
+{$content|substr:0:14}
+<p>{$arr|implode:','}</p>
+{*<p>{$content|preg_match:'/t\w*e/'}</p>*}
+{multiline color='red' size='30px' content='This is a paragraph' line=5}
+<p>{eightball}</p>
+<hr>
+{moreline line=4 color='cyan' size='40px' weight='bold'}
+我是$content
+{/moreline}
+{*模板中定义数组*}
+{$arr=['age'=>32,'sex'=>'female','hobby'=>'basketball']}
+{$arr1=array(1,2,3)}
+{$arr2=['age'=>32,'sex'=>'female','hobby'=>'basketball']}
+{$arr3=[12,13,14]}
+<p>{$arr['hobby']}</p>
+<p>{$arr1[1]}</p>
+<p>{$arr2['sex']}</p>
+<p>{$arr3[0]}</p>
+<hr>
+{$num=30}
+{if $num is odd}
+<h1>我是奇数</h1>
+{elseif $num is even by 3}
+<h2>我被3除商是偶数</h2>
+{else}
+<h2>我被3除商是奇数</h2>
+{/if}
+{if $num%4==2}
+<h2>XXXXX</h2>
+{/if}
+
+{for $i=1 to 50 step -2 max=10}
+{$i}
+{forelse}
+<p>循环有错误</p>
+{/for}
+{$k=3}
+{while $k<15}
+<p>{$k++}</p>
+{/while}
+
+{function name='table' a='aaa' b='bbb'}
+<table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+        <th>编号{$a}</th>
+        <th>用户名{$b}</th>
+        <th>密码</th>
+    </tr>
+    {foreach $admin as $key=>$val}
+    {if $val@first}
+    <tr style="background-color: #00C4F6">
+    {elseif $val@last}
+    <tr style="background-color: #f67e4b">
+    {elseif $val@iteration is even}
+    <tr style="background-color: #f6c45f">
+    {else}
+    <tr style="background-color: #4cf6b3">
+    {/if}
+        <td>{$key}-{$val@index}-{$val@iteration}-{$val@key}</td>
+        <td>{$val.username}</td>
+        <td>{$val.password}</td>
+    </tr>
+    {foreachelse}
+    <tr>
+        <td colspan="3">没有查找到数据</td>
+    </tr>
+    {/foreach}
+    {if !$val@show}
+    <tr>
+        <td colspan="3">没有找到数据</td>
+    </tr>
+    {/if}
+    <tr>
+        <td colspan="3">共查到{$val@total}条记录</td>
+    </tr>
+
+    {section name='test' loop=$admin}
+    <tr>
+        <td>{$admin[test].id}</td>
+        <td>{$admin[test].username}</td>
+        <td>{$admin[test].password}</td>
+    </tr>
+    {sectionelse}
+    <tr>
+        <td colspan="3">
+            没有查到数据
+        </td>
+    </tr>
+    {/section}
+</table>
+{/function}
+{table a='aaaaaaa' b='bbbbbbb'}
+
+{$user=array('jack',34,'male','football')}
+{$user1=['username'=>'jack','age'=>34,'sex'=>'male','hobby'=>'football']}
+{section name='user' loop=$user2}
+{if $smarty.section.user.first}
+<p style="background-color: #00C4F6">{$user2[user].username}-{$user2[user].age}-{$user2[user].sex}-{$user2[user].hobby}</p>
+{else}
+<p>{$user2[user].username}-{$user2[user].age}-{$user2[user].sex}-{$user2[user].hobby}</p>
+{/if}
+{sectionelse}
+<p>没有查到数据</p>
+{/section}
+
+
+
+
+
+</body>
+</html>
