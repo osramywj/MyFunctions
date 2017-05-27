@@ -13,12 +13,12 @@
 
 	require_once "./email.class.php";
 	//******************** 配置信息 ********************************
-	$smtpserver = "smtp.126.com";//SMTP服务器
+	$smtpserver = "smtp.163.com";//SMTP服务器
 	$smtpserverport =25;//SMTP服务器端口
-	$smtpusermail = "jnphptest@126.com";//SMTP服务器的用户邮箱
+	$smtpusermail = "ju910628@163.com";//SMTP服务器的用户邮箱
 	$smtpemailto = $_POST['toemail'];//发送给谁
-	$smtpuser = "jnphptest";//SMTP服务器的用户帐号
-	$smtppass = "jnphp2015";//SMTP服务器的客户端授权密码
+	$smtpuser = "ju910628";//SMTP服务器的用户帐号
+	$smtppass = "WENju115588";//SMTP服务器的客户端授权密码
 	$mailtitle = $_POST['title'];//邮件主题
 	$mailcontent = "<h1>".$_POST['content']."</h1>";//邮件内容
 	$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
