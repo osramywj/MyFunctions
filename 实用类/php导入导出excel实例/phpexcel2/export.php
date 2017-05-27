@@ -78,7 +78,7 @@ function getCells($index){
 
 
 
-/*************************讲excel文件到处到本地文件*********************************/
+/*************************将excel文件导出到本地文件*********************************/
 /*$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel,'Excel2007');//生成excel文件
 $objWriter->save('./export1.xlsx');//输出excel文件*/
 

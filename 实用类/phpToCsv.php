@@ -9,14 +9,14 @@
  */
 
 
-$csv_header = ['名称','性别','年龄'];
+$csv_header = array('名称','性别','年龄');
 // 内容
-$csv_body = [
-    ['张三','男','13'],
-    ['李四','女','13'],
-    ['王五','男','13'],
-    ['赵六','未知','13']
-];
+$csv_body = array(
+    array('张三','男','13'),
+    array('李四','女','13'),
+    array('王五','男','13'),
+    array('赵六','未知','13')
+);
 
 
 // 处理头部标题
@@ -28,6 +28,15 @@ foreach ($csv_body as $k => $v) {
 }
 // 拼接
 $csv = $header.$content;
+$csv = chr(0xEF).chr(0xBB).chr(0xBF).$csv;//添加BOM头
+
+header( "Cache-Control: public" );
+header( "Pragma: public" );
+header("Content-type:application/vnd.ms-excel");
+header("Content-Disposition:attachment;filename=txxx.csv");
+header('Content-Type:APPLICATION/OCTET-STREAM');
+echo $csv;die;
+
 
 // 打开文件资源，不存在则创建
 $fp = fopen('test.csv','a');
