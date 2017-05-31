@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Class Upload  多文件上传类
+ */
 class Upload{
     /*
      * 将上传的三维数组转为二维数组
