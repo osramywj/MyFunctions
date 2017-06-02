@@ -35,6 +35,6 @@ $objWriter->save('php://output');
         }else{
             header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');//输出excel07文件
         }
-        header("Content-Disposition: attachment;filename='".$filename."'"); //文件以附件形式输出，设置文件名
+        header("Content-Disposition: attachment;filename=".$filename); //文件以附件形式输出，设置文件名
         header('Cache-Control: max-age=0');//禁止缓存
     }
