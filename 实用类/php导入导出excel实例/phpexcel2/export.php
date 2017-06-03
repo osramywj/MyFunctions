@@ -25,7 +25,7 @@ $styleArray = array(
 );
 $objSheet->getStyle('A1:H13')->applyFromArray($styleArray);//设置单元格边框样式；也可将以上的样式全部写在$styleArray中；
 
-
+$objSheet->getColumnDimension('A')->setWidth(15);//设置某一列的宽度
 
 $objPHPExcel->getActiveSheet()->getStyle('A1:H13')->getAlignment()->setWrapText(true);//设置自动换行
 
@@ -52,6 +52,7 @@ foreach($degree as $k_d=>$v_d){
     $j=4;
     foreach($userInfo as $key=>$val){
         $objSheet->setCellValue($idIndex.$j,$val['id'])->setCellValue($usernameIndex.$j,$val['username']);//插入数据
+        //        $objSheet->setCellValueExplicit('B'.$j,$val['code'],PHPExcel_Cell_DataType::TYPE_STRING);//设置单元格数字以文本形式显示,防止科学计数法
         $j++;
     }
     $i++;
