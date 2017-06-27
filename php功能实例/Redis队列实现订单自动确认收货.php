@@ -46,7 +46,7 @@ while(true){
         $data = json_decode($redis->lGet('auto_recevice_order',-1));//获取队列最后面的一个值；
         $id = (int)$data->id;//将数据转化为整形
         $deliver_time = (int)$data->deliver_time;//将数据转化为整形
-        $res1 = $res2 =false;
+        $res1 = $res2 = false ;
         $now_time = time();
         if(($deliver_time+$set_time)<$now_time){//若当前时间超过自动收货时间
             $sql1 = "update `order` set `is_token`='1',`token_time` = $now_time where id=$id and is_send=1 and is_del=0 and is_cancel=0 and is_token=0 and send_time + {$set_time} < $now_time";
