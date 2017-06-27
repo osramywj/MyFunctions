@@ -32,7 +32,6 @@ file_put_contents('./success_log.txt',$success."\r\n".PHP_EOL,FILE_APPEND);
 
 
 /*******************************************处理队列*************************************************/
-/*处理时没有通过linux的定时任务去做，用linux的screen+php cli模式执行php脚本，消费者只需要不断的从队列中读取订单信息，然后判断订单信息中的发货
 时间，如果达到自动收货的要求，就执行update语句。同时如果没有达到收货的时间，而且与收货时间间距比较大的时候，可以让php脚本休眠sleep一定的时间数，
 这个时间数自己调节设计，获取出来的未达到时间要求的订单，需要重新推送到redis队列中去，而且还是队列的顶端。*/
 
@@ -42,7 +41,6 @@ while(true){
         usleep(10);//防止while 循环使CPU使用率过高
     }
     if($redis->LLEN('auto_recevice_order')){
-        //
         $data = json_decode($redis->lGet('auto_recevice_order',-1));//获取队列最后面的一个值；
         $id = (int)$data->id;//将数据转化为整形
         $deliver_time = (int)$data->deliver_time;//将数据转化为整形
