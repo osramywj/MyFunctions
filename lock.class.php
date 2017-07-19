@@ -92,6 +92,8 @@ class Lock
     }
 
 }
+
+//拿三个浏览器测试，只有最后一个访问的浏览器结果是30000，其他的都不足30000
 header("content-type: text/html;charset=utf8;");
 $obj=new Lock('127.0.0.1','123456');
 $obj->test('lock_count');
