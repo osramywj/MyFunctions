@@ -6,6 +6,7 @@ require './db.php';//引入数据库操作类文件
 require 'phpExcel/PHPExcel.php';//引入PHPExcel类文件
 $db = new MysqlCon($dbconfig);//连接数据库
 $objPHPExcel = new PHPExcel();//实例化PHPExcel类，等同于在桌面上新建一个excel，里面已经含有一个sheet了
+//4代表有四个sheet
 for($i=0;$i<4;$i++){
     if($i>0){
         $objPHPExcel->createSheet();//创建新的内置表
