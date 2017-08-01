@@ -4,7 +4,7 @@
  */
 //定义头部，表示输出excel，再以table的形式把数据库的信息循环的echo出来
 header("Content-type:application/vnd.ms-excel");
-header("Content-Disposition:filename=xls_region.xls");
+header("Content-Disposition:filename=".$filename.".xls");
 
 $cfg_dbhost = '192.168.1.202';
 $cfg_dbname = 'youde';
@@ -43,4 +43,31 @@ while($row = mysql_fetch_array($res)){
 }
 echo "</table>";
 
-?>
+/*********************************第二种********************************************/
+//导出excel
+function exportexcel($data=array(),$title=array(),$filename='report'){
+    header("Content-type:aplication/octet-stream");
+    header("Accept-Ranges:bytes");
+    header("Content-type:application/vnd.ms-excel");
+    header("Content-Disposition:attachment;filename=".$filename.".xls");
+    header("Pragma: no-cache");
+    header("Expires: 0");
+
+    if (!empty($title)){
+        foreach($title as $k=>$v){
+            $title[$k]=iconv("UTF-8","GB2312",$v);
+        }
+        $title=implode("\t",$title);//  \t是水平方向跳到下一制表符位置
+        echo "$title\n";//  \n是回车并换行
+    }
+
+    if (!empty($data)){
+        foreach($data as $key=>$val){
+            foreach($val as $ck=>$cv){
+                $data[$key][$ck]=iconv("UTF-8","GB2312",$cv);
+            }
+            $data[$key]=implode("\t",$data[$key]);
+        }
+        echo implode("\n",$data);
+    }
+}
