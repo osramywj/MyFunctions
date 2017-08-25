@@ -89,12 +89,13 @@ function lotto()
             $prize_arr[$rid-1]['num']-=1;
             $redis->lSet('prize',0,json_encode($prize_arr));
             $prize = $prize_arr[$rid-1]['prize'];
+            echo '恭喜您获得'.$prize;
         }else{
             $prize = $prize_arr[$rid-1]['prize'];
             unset($prize_arr[$rid-1]);//将中奖项从数组中剔除，剩下未中奖项
             $redis->lSet('prize',0,json_encode($prize_arr));
+            echo '未中奖';
         }
-        echo '恭喜您获得'.$prize;
     }else{
         echo  '未中奖';
     }
