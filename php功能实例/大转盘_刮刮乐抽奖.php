@@ -1,6 +1,6 @@
 <?php
 /**
- * 大转盘、刮刮乐等抽奖，抽中之后奖品从奖池删除，剩余奖品的中奖概率等于总概率减去已抽奖品概率；
+ * 大转盘、刮刮乐等抽奖，抽中之后奖品从奖池删除，绝对概率，数量递减；
  */
 
 //定义一个奖品数组，id为几等奖，prize为奖品名称，v为中奖概率，
@@ -85,21 +85,43 @@ function lotto()
 
     $rid = get_rand($prize_arr); //根据概率获取奖项id
     if ($rid != 6) {
-        if ($prize_arr[$rid-1]['num']>1) {
-            $prize_arr[$rid-1]['num']-=1;
-            $redis->lSet('prize',0,json_encode($prize_arr));
-            $prize = $prize_arr[$rid-1]['prize'];
-            echo '恭喜您获得'.$prize;
-        }else{
-            $prize = $prize_arr[$rid-1]['prize'];
+
+        $prize_arr[$rid-1]['num']-=1;
+        if ($prize_arr[$rid-1]['num']==0) {
             unset($prize_arr[$rid-1]);//将中奖项从数组中剔除，剩下未中奖项
             $redis->lSet('prize',0,json_encode($prize_arr));
-            echo '未中奖';
         }
+        $redis->lSet('prize',0,json_encode($prize_arr));
+        $prize = $prize_arr[$rid-1]['prize'];
+        echo '恭喜您获得'.$prize;
+
     }else{
         echo  '未中奖';
     }
 }
-
-
 lotto();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
