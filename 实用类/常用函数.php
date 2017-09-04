@@ -215,4 +215,16 @@ class Common{
         $res['info']=$info;
         echo json_encode($res);
     }
+
+    /**
+     * 循环创建目录
+     * 当你要创建的目录的父目录也不存在时，直接用mkdir回报错，需要把他的父目录也先创建出来；
+     */
+    static public function mk_dir($dir, $mode = 0777) {
+        if (is_dir($dir) || @mkdir($dir, $mode))
+            return true;
+        if (!self::mk_dir(dirname($dir), $mode))
+            return false;
+        return @mkdir($dir, $mode);
+    }
 }
