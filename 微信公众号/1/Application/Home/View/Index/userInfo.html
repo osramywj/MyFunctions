@@ -5,12 +5,14 @@
     <title></title>
 </head>
 <body>
-<h1>{$userInfo.nickname}</h1>
-<h1>{$userInfo['sex']==1?'男':'女'}</h1>
-<h1>{$userInfo['province']}</h1>
-<h1>{$userInfo['city']}</h1>
-<p><img src="{$userInfo['headimgurl']}" alt=""/></p>
-<p>{:date('Y-m-d H:i:s',$userInfo['subscribe_time'])}</p>
+<h1>昵称：{$userInfo.nickname}</h1>
+<h1>性别：{$userInfo['sex']==1?'男':'女'}</h1>
+<h1>省份：{$userInfo['province']}</h1>
+<h1>城市：{$userInfo['city']}</h1>
+<h1>openid：{$userInfo['openid']}</h1>
+<h1>unionid：{$userInfo['openid']}</h1>
+<p>头像：<img src="{$userInfo['headimgurl']}" width="100" height="100" alt=""/></p>
+<p>关注时间：{:date('Y-m-d H:i:s',$userInfo['subscribe_time'])}</p>
 <h1>{$userInfo.city}</h1>
 </body>
 </html>

@@ -1,0 +1,2888 @@
+[ 2017-08-16T09:27:47+08:00 ] 218.28.37.74 /weixin/index.php/Home/Index/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-08-16T09:27:54+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `token` SET `token_value`='WU-bAn2dnp3w0U7ABQ4-VGypN6qNC8S5IFs957Sgc3HaOwy6zPr8jv1phNLqFtfLzoQqqP2TSrlekJj4MIWgMd7FZ3eDqJJdrgJqjoAW0nxYojufOC9ZII2zefnw5o7nGANaAGAPJW',`token_expire`='1502854073' WHERE `token_name` = 'access_token' [ RunTime:0.0019s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-08-16T09:36:21+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 578 行.
+NOTIC: [2] move_uploaded_file(/weixin/upload/.jpg): failed to open stream: No such file or directory /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 579 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/data/home/tmp/phpNAGK7k' to '/weixin/upload/.jpg' /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 579 行.
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-08-16T09:37:30+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 578 行.
+NOTIC: [2] move_uploaded_file(/weixin/upload/.jpg): failed to open stream: No such file or directory /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 579 行.
+NOTIC: [2] move_uploaded_file(): Unable to move '/data/home/tmp/phpJDMAe9' to '/weixin/upload/.jpg' /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 579 行.
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-08-16T09:39:38+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 578 行.
+
+[ 2017-08-16T09:40:10+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: img /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 577 行.
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 578 行.
+
+[ 2017-08-16T09:41:19+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 578 行.
+
+[ 2017-08-16T09:45:26+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: img /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 577 行.
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-08-16T09:47:42+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: img /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 577 行.
+
+[ 2017-08-16T09:53:33+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2017-08-16T09:54:10+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-16T09:54:37+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-08-16T09:54:38+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-08-16T09:54:39+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-08-16T09:54:57+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-08-16T09:54:59+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-08-16T09:55:00+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-08-16T09:55:30+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-08-16T09:55:33+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-08-16T09:55:52+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-08-16T09:55:53+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-08-16T09:56:09+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-08-16T09:58:38+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 597 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-08-16T10:00:53+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 597 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-08-16T10:00:59+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 597 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2017-08-16T10:01:31+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 597 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-08-16T10:03:08+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-08-16T10:03:17+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-08-16T10:03:48+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2017-08-16T10:03:51+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-08-16T10:03:56+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-08-16T10:04:04+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2017-08-16T10:04:05+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-08-16T10:04:17+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2017-08-16T10:04:18+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-08-16T10:04:23+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 595 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2017-08-16T10:47:58+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+NOTIC: [2] curl_setopt(): open_basedir restriction in effect. File(../../../upload/Penguins.jpg) is not within the allowed path(s): (/data/home/bxu2711760770/:/usr/home/bxu2711760770/:/data/home/tmp/:/usr/home/tmp/:/var/www/disablesite/:/tmp/) /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2017-08-16T10:48:00+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+NOTIC: [2] curl_setopt(): open_basedir restriction in effect. File(../../../upload/Penguins.jpg) is not within the allowed path(s): (/data/home/bxu2711760770/:/usr/home/bxu2711760770/:/data/home/tmp/:/usr/home/tmp/:/var/www/disablesite/:/tmp/) /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-08-16T10:48:01+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+NOTIC: [2] curl_setopt(): open_basedir restriction in effect. File(../../../upload/Penguins.jpg) is not within the allowed path(s): (/data/home/bxu2711760770/:/usr/home/bxu2711760770/:/data/home/tmp/:/usr/home/tmp/:/var/www/disablesite/:/tmp/) /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2017-08-16T10:48:53+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+NOTIC: [2] curl_setopt(): open_basedir restriction in effect. File(../../../../upload/Penguins.jpg) is not within the allowed path(s): (/data/home/bxu2711760770/:/usr/home/bxu2711760770/:/data/home/tmp/:/usr/home/tmp/:/var/www/disablesite/:/tmp/) /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2017-08-16T10:48:54+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+NOTIC: [2] curl_setopt(): open_basedir restriction in effect. File(../../../../upload/Penguins.jpg) is not within the allowed path(s): (/data/home/bxu2711760770/:/usr/home/bxu2711760770/:/data/home/tmp/:/usr/home/tmp/:/var/www/disablesite/:/tmp/) /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-08-16T10:49:59+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+NOTIC: [2] curl_setopt(): open_basedir restriction in effect. File(../../../upload/Penguins.jpg) is not within the allowed path(s): (/data/home/bxu2711760770/:/usr/home/bxu2711760770/:/data/home/tmp/:/usr/home/tmp/:/var/www/disablesite/:/tmp/) /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-08-16T10:51:41+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-08-16T10:51:44+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-08-16T10:51:45+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-08-16T10:51:46+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-08-16T10:51:47+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-08-16T10:52:06+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-08-16T10:53:15+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-08-16T10:53:17+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-08-16T10:53:18+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-08-16T10:54:42+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2017-08-16T10:54:43+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-08-16T10:54:44+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-08-16T10:54:45+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2017-08-16T10:54:45+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-08-16T10:54:59+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-08-16T10:55:12+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2017-08-16T10:56:28+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `token` SET `token_value`='fwGMSP7OZEyiGHKtgl_Jz8bHQYvtlaJvQv5OvkQerI-fHh5HpN897JEf2RG0XA2Z_4gGn65MKevp5JYWz10XB7qjHEkrKIgzCzlq1HCrbUjTMXi8wYti4PTtDDAXetueCOGfACAHTL',`token_expire`='1502859388' WHERE `token_name` = 'access_token' [ RunTime:0.0016s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2017-08-16T10:56:30+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-08-16T10:56:36+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-08-16T10:56:48+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-08-16T11:01:50+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 581 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2017-08-16T11:01:51+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 581 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-08-16T11:02:27+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 581 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-08-16T11:02:35+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 581 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-08-16T11:02:59+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 581 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2017-08-16T11:03:00+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 581 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2017-08-16T11:03:54+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 581 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2017-08-16T11:03:56+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 581 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-08-16T11:10:07+08:00 ] ::1 /weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T11:10:47+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T11:12:34+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-16T11:13:13+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T11:14:36+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0190s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 582 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T11:16:43+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0230s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 582 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003500s ]
+
+[ 2017-08-16T11:19:39+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0200s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 582 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-16T11:24:18+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 582 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-16T11:24:25+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0215s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 582 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T11:25:20+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 582 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-16T11:27:04+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-16T11:27:27+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 582 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T11:27:39+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-16T11:29:43+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0205s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 577 行.
+
+[ 2017-08-16T11:29:44+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 577 行.
+
+[ 2017-08-16T11:29:44+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0200s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 577 行.
+
+[ 2017-08-16T11:29:49+08:00 ] ::1 /weixin/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T11:30:11+08:00 ] ::1 /weixin/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-16T11:30:23+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: tmp_file D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 577 行.
+
+[ 2017-08-16T11:30:40+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0215s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 577 行.
+
+[ 2017-08-16T11:30:45+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+
+[ 2017-08-16T11:33:45+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0185s ]
+NOTIC: [2] move_uploaded_file(D:\xampp\htdocs\weixin\Application\Home\Controller../../../upload/微信图片_20170807095001.png): failed to open stream: No such file or directory D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 580 行.
+NOTIC: [2] move_uploaded_file(): Unable to move 'D:\xampp\tmp\phpC06.tmp' to 'D:\xampp\htdocs\weixin\Application\Home\Controller../../../upload/微信图片_20170807095001.png' D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 580 行.
+
+[ 2017-08-16T11:34:09+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0265s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 577 行.
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 578 行.
+
+[ 2017-08-16T11:34:53+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 577 行.
+
+[ 2017-08-16T11:34:58+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0210s ]
+
+[ 2017-08-16T11:35:37+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0205s ]
+NOTIC: [2] move_uploaded_file(D:\xampp\htdocs\weixin\Application\Home\Controller../../../upload/微信图片_20170807095001.png): failed to open stream: No such file or directory D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 580 行.
+NOTIC: [2] move_uploaded_file(): Unable to move 'D:\xampp\tmp\phpC0C6.tmp' to 'D:\xampp\htdocs\weixin\Application\Home\Controller../../../upload/微信图片_20170807095001.png' D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 580 行.
+
+[ 2017-08-16T11:36:42+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0195s ]
+
+[ 2017-08-16T11:37:49+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0235s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 589 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-16T11:53:44+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 非法操作:uploadMedia
+
+[ 2017-08-16T11:54:50+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 非法操作:uploadMedia
+
+[ 2017-08-16T11:54:51+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 非法操作:uploadMedia
+
+[ 2017-08-16T11:55:05+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-16T11:55:15+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 632 行.
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 633 行.
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 634 行.
+
+[ 2017-08-16T11:55:41+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 632 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 633 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 634 行.
+
+[ 2017-08-16T11:55:51+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-16T11:57:19+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 632 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 633 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 634 行.
+NOTIC: [2] explode(): Empty delimiter D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 635 行.
+
+[ 2017-08-16T11:57:24+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 636 行.
+
+[ 2017-08-16T11:57:49+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T11:58:18+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 632 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 633 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 634 行.
+
+[ 2017-08-16T11:58:22+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T14:01:59+08:00 ] ::1 /weixin/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:upload
+
+[ 2017-08-16T14:02:07+08:00 ] ::1 /weixin/index.php/Home/Index/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T14:02:21+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0235s ]
+SQL: UPDATE `token` SET `token_value`='aKyHrYHx9fVLu8anyUvEwNSdZB2i4MFskjfO5s9vn6Q2-lvZjOeKG9hbHWl-DuPGJbAnRxjycSBAxQIfz0QbFDOuscFFJl6voG2cG4d2n73VCyRlSzqmhAXYNBJe9SCqGIFbAAAPRO',`token_expire`='1502870540' WHERE `token_name` = 'access_token' [ RunTime:0.0235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T14:03:55+08:00 ] ::1 /weixin/index.php/Home/Index/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T14:04:08+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T14:20:22+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T14:20:35+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T14:20:56+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T14:21:01+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T14:21:24+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 636 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 637 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 638 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0235s ]
+
+[ 2017-08-16T14:21:44+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 636 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 637 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 638 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T14:21:50+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T14:27:36+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:media_id
+
+[ 2017-08-16T14:27:48+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005501s ]
+
+[ 2017-08-16T14:28:03+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T14:30:40+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-16T14:31:20+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0185s ]
+
+[ 2017-08-16T14:31:25+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0200s ]
+
+[ 2017-08-16T14:32:36+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+
+[ 2017-08-16T14:32:45+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0215s ]
+
+[ 2017-08-16T14:33:16+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0245s ]
+
+[ 2017-08-16T14:34:23+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T14:37:26+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T14:39:19+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2017-08-16T14:40:06+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T14:46:30+08:00 ] ::1 /weixin/index.php/Home/Wechat/getTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-16T14:48:00+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T14:49:00+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+
+[ 2017-08-16T14:49:32+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0190s ]
+
+[ 2017-08-16T14:51:43+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T14:54:16+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T14:54:40+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T14:55:11+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0195s ]
+NOTIC: [8] Use of undefined constant ROOT_PATH - assumed 'ROOT_PATH' D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 674 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T14:57:03+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-08-16T14:57:35+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T14:58:09+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+
+[ 2017-08-16T14:58:21+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+
+[ 2017-08-16T14:58:32+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T14:59:19+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-08-16T14:59:40+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T15:00:58+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0210s ]
+
+[ 2017-08-16T15:01:26+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0215s ]
+
+[ 2017-08-16T15:01:29+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+
+[ 2017-08-16T15:01:42+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0190s ]
+
+[ 2017-08-16T15:03:09+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0195s ]
+
+[ 2017-08-16T15:13:58+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005501s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0210s ]
+
+[ 2017-08-16T15:15:54+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+
+[ 2017-08-16T15:15:59+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0215s ]
+
+[ 2017-08-16T15:16:55+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-08-16T15:22:15+08:00 ] ::1 /weixin/index.php/Home/Wechat/downTempMeida
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-16T15:44:40+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-08-16T15:45:14+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T15:48:09+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-08-16T15:48:17+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T16:02:22+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:02:40+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 714 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0190s ]
+SQL: UPDATE `token` SET `token_value`='C5tqwWmAKnwE0toO3tAKm2yPkp_RLE2rI3gumsYAV3-Itu-J9KmfOUJ63IzLBqY0o0sCR6bEaYoSr6eUnxoBbuRPaMPq-nQRLPVzW9pfYeUGAAjAGAWQQ',`token_expire`='1502877759' WHERE `token_name` = 'access_token' [ RunTime:0.0195s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 720 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:03:10+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:03:21+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 714 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0240s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 720 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T16:03:53+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 714 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 720 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:04:51+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0245s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 720 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:05:01+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:05:06+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0255s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 720 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-16T16:05:46+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:05:52+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0215s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 720 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T16:06:07+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:06:14+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 720 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:07:26+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 714 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 715 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 716 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:07:40+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 714 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 715 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 716 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T16:07:46+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 714 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 715 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 716 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:07:54+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:08:04+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:09:10+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 714 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 715 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 716 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:10:10+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 714 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 715 行.
+NOTIC: [8] Undefined index: material D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 716 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:16:01+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T16:16:15+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T16:16:31+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T16:17:45+08:00 ] ::1 /weixin/index.php/Home/Index/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:17:52+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0240s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 598 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T16:27:30+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T16:27:41+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T17:01:55+08:00 ] ::1 /weixin/index.php/Home/Wechat/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-08-16T17:03:21+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T17:03:37+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T17:04:22+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T17:05:56+08:00 ] ::1 /weixin/index.php/Home/Index/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T17:06:05+08:00 ] ::1 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0170s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 599 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-16T17:06:38+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMedia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T17:06:46+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T17:08:14+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-16T17:08:42+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-08-16T17:09:12+08:00 ] ::1 /weixin/index.php/Home/Wechat/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T17:18:52+08:00 ] ::1 /weixin/index.php/Home/Wechat/newsUpload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-16T17:20:14+08:00 ] ::1 /weixin/index.php/Home/Wechat/uploadTempMedia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 644 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 645 行.
+NOTIC: [8] Undefined index: media D:\xampp\htdocs\weixin\Application\Home\Controller\WechatController.class.php 第 646 行.
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T17:20:23+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMateral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 非法操作:uploadMateral
+
+[ 2017-08-16T17:20:31+08:00 ] ::1 /weixin/index.php/Home/Index/uploadMaterial
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-08-16T17:20:39+08:00 ] ::1 /weixin/index.php/Home/Wechat/addMaterial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-08-16T17:27:07+08:00 ] 218.28.37.74 /weixin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-08-16T17:27:15+08:00 ] 218.28.37.74 /weixin/index.php/Home/Index/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-08-16T17:27:29+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 602 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2017-08-16T17:27:59+08:00 ] 218.28.37.74 /weixin/index.php/Home/Wechat/getImgUrl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `token` WHERE `token_name` = 'access_token' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8192] curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 602 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+

@@ -6,4 +6,14 @@ class IndexController extends Controller {
 
         $this->display();
     }
+
+    public function uploadImg()
+    {
+        $this->display('Index/uploadImg');
+    }
+
+    public function uploadMedia()
+    {
+        $this->display('Index/uploadMedia');
+    }
 }

@@ -1,0 +1,283 @@
+[ 2017-08-02T14:49:27+08:00 ] 218.28.37.74 /weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-08-02T14:49:28+08:00 ] 218.28.37.74 /weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001575s ]
+
+[ 2017-08-02T14:49:29+08:00 ] 218.28.37.74 /weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-08-02T15:09:45+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2017-08-02T15:11:28+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-08-02T15:12:17+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-08-02T15:12:30+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-08-02T16:56:27+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-08-02T17:28:17+08:00 ] 218.28.37.74 /weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-08-02T17:28:57+08:00 ] 218.28.37.74 /weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-08-02T17:31:09+08:00 ] 140.207.54.75 /weixin/Home/Wechat/checkSignature?signature=fffc67694a9fff1e3546d26b2e32ad5968bbf60e&echostr=16724108789440954365&timestamp=1501666269&nonce=413040410
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2017-08-02T17:31:12+08:00 ] 140.207.54.75 /weixin/Home/Wechat/checkSignature?signature=8f98ca4aac12adda828ada1fec3642afd6b25924&echostr=15563310037216378863&timestamp=1501666272&nonce=2262923005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-08-02T17:31:16+08:00 ] 101.226.66.174 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-08-02T17:38:05+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-08-02T17:38:14+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-08-02T17:38:18+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-08-02T17:39:30+08:00 ] 140.207.54.75 /weixin/Home/Wechat/checkSignature?signature=b5856a93c34a52fa0b7b108d10d8bb8910fd231d&timestamp=1501666770&nonce=943261983&openid=om8B7w9aRmEOCQ2T9I2Av01OxUNw&encrypt_type=aes&msg_signature=7595e9c23ac923d999efb45875bdd7e4b8a4f657
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2017-08-02T17:39:40+08:00 ] 140.207.54.75 /weixin/Home/Wechat/checkSignature?signature=72308cf2749b668ab9a948113af42b780b7f4ff9&timestamp=1501666780&nonce=1084380492&openid=om8B7w9aRmEOCQ2T9I2Av01OxUNw&encrypt_type=aes&msg_signature=c65db8dcea073ffbaa1ca551ded415fea15de187
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-08-02T17:40:14+08:00 ] 140.207.54.75 /weixin/Home/Wechat/checkSignature?signature=469a98a2ab514103c84e55a3ec63e8c9ba36e3f8&timestamp=1501666814&nonce=739568052&openid=om8B7w9aRmEOCQ2T9I2Av01OxUNw&encrypt_type=aes&msg_signature=56fe48fe86acd75324c2189a87ce5530d7d2642f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-08-02T17:43:05+08:00 ] 218.28.37.74 /weixin/Home/Wechat/setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+

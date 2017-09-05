@@ -1,0 +1,71 @@
+[ 2017-08-03T12:45:53+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-08-03T12:46:01+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 131 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 132 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-08-03T12:46:32+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+
+[ 2017-08-03T12:47:55+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-08-03T13:47:03+08:00 ] 218.28.37.74 /weixin/Home/Wechat/checkSignature
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /data/home/bxu2711760770/htdocs/weixin/Application/Home/Controller/WechatController.class.php 第 87 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
