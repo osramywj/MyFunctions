@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        /*#div {*/
+            /*width: 500px;height:100px;background-color: green ;*/
+            /*!*border:2px solid red;*!*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div   style="width: 500px;background-color: #77776F ;" id="div">
+
+</div>
+<div id="test" style="width: 100px;height: 100px;overflow:scroll;line-height:200px;">内容</div>
+<button onclick="test()">点击</button>
+<script language="JavaScript">
+
+
+    /**************************************当没有滚动条，鼠标滑轮的监听事件****************************************/
+    //滑轮滚动触发的函数
+    var scrollFunc = function (event) {
+
+        event = event || window.event;
+
+        if (event.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件
+            if (event.wheelDelta > 0) { //当滑轮向上滚动时
+                // alert("滑轮向上滚动");
+            }
+            if (event.wheelDelta < 0) { //当滑轮向下滚动时
+                ajax({
+                    type:"POST",
+                    url:"ajax.php",
+                    dataType:"json",
+                    data:{"val1":"abc","val2":123,"val3":"456"},
+                    beforeSend:function(){
+                        //some js code
+                    },
+                    success:function(res){
+                        var newNode = document.createElement('a');
+                        newNode.setAttribute('href','http://www.baidu.com');
+                        newNode.innerHTML = res.data.title+' : '+res.data.content;
+                        var newLine = document.createElement('p');
+                        newLine.appendChild(newNode);
+                        document.body.appendChild(newLine);
+                    },
+                    error:function(){
+                        console.log("error")
+                    }
+                })
+            }
+        } else if (event.detail) {  //Firefox滑轮事件
+            if (event.detail> 0) { //当滑轮向上滚动时
+                //alert("滑轮向上滚动");
+            }
+            if (event.detail< 0) { //当滑轮向下滚动时
+                //alert("滑轮向下滚动");
+            }
+        }
+    };
+
+    //给页面绑定滑轮滚动事件
+    if (document.addEventListener) {
+        //webkit
+        document.addEventListener('mousewheel', scrollFunc, false);
+        //firefox
+        document.addEventListener('DOMMouseScroll', scrollFunc, false);
+
+    }else if(window.attachEvent){//IE
+        document.attachEvent('onmousewheel',scrollFunc);
+    }
+
+/*************************************************滚动条滚动事件**************************************************/
+
+    window.onscroll=function () {
+        //滚动条滚动的高度
+        var scrollTop = document.body.scrollTop;
+        //浏览器可视范围的高度
+        var clientHeight = window.innerHeight
+            || document.documentElement.clientHeight
+            || document.body.clientHeight;
+        //body的实际高度
+        var scrollHeight = document.body.scrollHeight;
+        //当滚动条离最下方20px时触发
+        if(scrollHeight-scrollTop-clientHeight<50){
+//            var newNode = document.createElement('a');
+//            newNode.setAttribute('href','http://www.baidu.com');
+//            newNode.innerHTML = '新链接';
+//            var newLine = document.createElement('p');
+//            newLine.appendChild(newNode);
+//            document.body.appendChild(newLine);
+            ajax({
+                type:"POST",
+                url:"ajax.php",
+                dataType:"json",
+                data:{"val1":"abc","val2":123,"val3":"456"},
+                beforeSend:function(){
+                    //some js code
+                },
+                success:function(res){
+                    var newNode = document.createElement('a');
+                    newNode.setAttribute('href','http://www.baidu.com');
+                    newNode.innerHTML = res.data.title+' : '+res.data.content;
+                    var newLine = document.createElement('p');
+                    newLine.appendChild(newNode);
+                    document.body.appendChild(newLine);
+                },
+                error:function(){
+                    console.log("error")
+                }
+            })
+        }
+    };
+
+function ajax(arguments){
+    var ajaxData = {
+        type:arguments.type || "GET",
+        url:arguments.url || "",
+        async:arguments.async || "true",
+        data:arguments.data || null,
+        dataType:arguments.dataType || "text",
+        contentType:arguments.contentType || "application/x-www-form-urlencoded",
+        beforeSend:arguments.beforeSend || function(){},
+        success:arguments.success || function(){},
+        error:arguments.error || function(){}
+    };
+    ajaxData.beforeSend();
+    var xhr = createxmlHttpRequest();
+    xhr.responseType=ajaxData.dataType;
+    xhr.open(ajaxData.type,ajaxData.url,ajaxData.async);
+    xhr.setRequestHeader("Content-Type",ajaxData.contentType);
+    xhr.send(convertData(ajaxData.data));
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4) {
+            if(xhr.status == 200){
+                ajaxData.success(xhr.response)
+            }else{
+                ajaxData.error()
+            }
+        }
+    }
+}
+
+function createxmlHttpRequest() {
+    if (window.ActiveXObject) {
+        return new ActiveXObject("Microsoft.XMLHTTP");
+    } else if (window.XMLHttpRequest) {
+        return new XMLHttpRequest();
+    }
+}
+
+function convertData(data){
+    if( typeof data === 'object' ){
+        var convertResult = "" ;
+        for(var c in data){
+            convertResult+= c + "=" + data[c] + "&";
+        }
+        convertResult=convertResult.substring(0,convertResult.length-1);
+        return convertResult;
+    }else{
+        return data;
+    }
+}
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
