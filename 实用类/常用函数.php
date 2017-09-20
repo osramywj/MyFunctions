@@ -220,11 +220,18 @@ class Common{
      * 循环创建目录
      * 当你要创建的目录的父目录也不存在时，直接用mkdir回报错，需要把他的父目录也先创建出来；
      */
-    static public function mk_dir($dir, $mode = 0777) {
-        if (is_dir($dir) || @mkdir($dir, $mode))
-            return true;
-        if (!self::mk_dir(dirname($dir), $mode))
-            return false;
-        return @mkdir($dir, $mode);
+    function mkdirs($dir)
+    {
+        if(!is_dir($dir))
+        {
+            if(!mkdirs(dirname($dir))){
+                return false;
+            }
+            if(!mkdir($dir,0777)){
+                return false;
+            }
+        }
+        chmod($dir, 777);    //给目录操作权限
+        return true;
     }
 }
