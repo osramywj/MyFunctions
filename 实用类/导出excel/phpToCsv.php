@@ -8,7 +8,6 @@
  * 3. 最后写入文件
  */
 
-
 $csv_header = array('名称','性别','年龄');
 // 内容
 $csv_body = array(
