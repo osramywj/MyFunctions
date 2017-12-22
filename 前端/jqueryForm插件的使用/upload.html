@@ -16,25 +16,47 @@
     <div style="display: none;" id="output"></div>
     <input type="submit" value="提交">
 </form>
+
+<input id="myButton" type="button" value="提交" />
 <script>
+    //当需要同时传文件和表单时，使用jquery.form插件
+    /*
+    ajaxForm和ajaxSubmit的区别：
+        ajaxForm必须由submit按钮触发,自动阻止默认的表单提交后跳转。
+        而ajaxSubmit则可以通过button a标签等触发，不需要submit按钮
 
-    /****************************jquery.form插件使用**************************************/
+        $("#form1").ajaxForm();  相当于以下两行：
 
+        $("#form1".submit)(function(){
+            $("#form1").ajaxSubmit();
+            return false;
+        })
+        ajaxFrom()会自动阻止表单提交。而ajaxSubmit()不会自动阻止表单提交，想阻止表单提交，要自己return false;
+
+        ajaxForm()提交动作必须由submit开始。适用于以 表单 提交方式处理ajax技术 ,（需要提供表单的action、id、 method，最好在表单中提供submit按钮）.
+        它大大简化了使用ajax技术提交表单时的数据传递问题，使用ajaxForm()你不需要逐个的以 JavaScript的方式获取每个表单属性的值，
+        并且也不需要在请求路径后面通过url重写的方式传递数据。ajaxForm()会自动收集当前表单中每个属性的值，然后将其以表单提交的方式提交到目标url。
+
+        ajaxSubmit()由AJAX来提交表单。你可以在任何情况下进行该项提交。ajaxSubmit()适用于以事件的机制以ajax提交form表单（超链接、图片的click事件），
+        该方法作用与ajaxForm()类似，但它更为灵活，因为他依赖于事件机制，只要有事件存在就能使用该方法。你只需指定该form的action属性即可，不需要提供submit按钮。
+
+    */
 
     /*************************方法一***************************************************/
-    /*$('#form').submit(function(){
+/*    $('#form').submit(function(){
         $(this).ajaxSubmit(function(res){
             var a = JSON.parse(res);
-            $('#output').html(a).show();
+            $('#output').html(a.status+':'+a.info).show();
         });
-        return false; //阻止表单默认提交
-    })*/
+        return false; //阻止表单默认提交，否则还是会跳转
+    });*/
     /*************************方法二***************************************************/
+/*        $('#form').ajaxForm(function (res) {
+            var a = JSON.parse(res);
+            $('#output').html(a.status + ':' + a.info).show();
+        });*/
 
-    /*$('#form').ajaxForm(function(res){
-        var a = JSON.parse(res);
-        $('#output').html(a).show();
-    })*/
+
     /*************************方法三***************************************************/
 
     var options = {
@@ -79,17 +101,26 @@
         }
     }
 
-/*    function fun2(responseText, statusText){
-        // 根据dataType不同responseText解析方式不同
-        alert('状态:'+statusText+'\n 返回的内容是:\n'+responseText);
-    }*/
+    //当dataType是html时
+//    function fun2(responseText, statusText){
+//        // 根据dataType不同responseText解析方式不同
+//        var res = JSON.parse(responseText);
+//        alert('状态:'+statusText+'\n 返回的内容是:\n'+res.status+':'+res.info);
+//    }
 
+    //当dataType是json时
     function fun2(res){
         alert('状态:'+res.status+'\n 返回的内容是:\n'+res.info);
     }
 
-        $('#form').ajaxForm(options); //把前面定义的options作为参数传进去
+    /*当form里有submit按钮时*/
+    $('#form').ajaxForm(options); //把前面定义的options作为参数传进去
 
+
+    /*当form没有submit按钮时，可以用其他方式触发提交表单*/
+    $('#myButton').click(function () {
+        $('#form').ajaxSubmit(options);
+    });
 </script>
 </body>
 </html>
