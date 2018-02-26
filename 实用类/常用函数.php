@@ -220,6 +220,7 @@ class Common{
      * 循环创建目录
      * 当你要创建的目录的父目录也不存在时，直接用mkdir回报错，需要把他的父目录也先创建出来；
      */
+    //注意：mkdir($dir,0777,true)  第三个参数代表是否循环创建子目录，true表示是
     function mkdirs($dir)
     {
         if(!is_dir($dir))
@@ -234,4 +235,5 @@ class Common{
         chmod($dir, 777);    //给目录操作权限
         return true;
     }
+
 }
