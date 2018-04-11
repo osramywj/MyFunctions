@@ -1,4 +1,27 @@
 <?php
+
+function getTree($data, $pId)
+{
+$tree = '';
+foreach($data as $k => $v)
+{
+  if($v['cate_ParentId'] == $pId)
+  {        //父亲找到儿子
+   $v['cate_ParentId'] = getTree($data, $v['cate_Id']);
+   $tree[] = $v;
+   //unset($data[$k]);
+  }
+}
+return $tree;
+}
+$tree = getTree($data, 0);
+
+
+
+
+
+
+
 /**
  * 无限极分类
  * @param int $pid  分类的父id
