@@ -1,0 +1,28 @@
+#divtest
+{
+    width: 282px;
+}
+#divtest .title
+{
+    padding: 8px;
+    background-color: Blue;
+    color: #fff;
+    height: 23px;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#divtest .content
+{
+    padding: 8px 0px;
+    background-color: #fff;
+    font-size: 13px;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body bgcolor="#fef4d2" >
+<div><span id="liveclock" style=' width: 200px; height: 15px'></span></div>
+<div>
+    <form action="">
+        <input type="radio" name="time" id="s" onclick="switchTime(this)">12小时
+        <input type="radio" name="time" id="l" onclick="switchTime(this)">24小时
+    </form>
+</div>
+
+<SCRIPT>
+    //显示当前日期
+    function showclock() {
+        var d = new Date();
+        var y =d.getFullYear();
+        var m = d.getMonth()+1;
+        var dd = d.getDate();
+        var weekday = ['日','一','二','三','四','五','六'];
+        var txt = y+'年'+m+'月'+dd+'日 星期'+weekday[d.getDay()];
+        document.getElementById('liveclock').innerHTML = txt;
+    }
+
+
+    var t;
+    //显示当前时间
+    function showTime(param) {
+        var d = new Date();
+        var h = d.getHours();
+        if (param=='s') {
+            var dm = h>12?'PM':'Am';
+        }else{
+            var dm='';
+        }
+
+        if ( param =='s') {
+            h = h>12?h-12:h;
+        }
+        var m = d.getMinutes();
+        var s = d.getSeconds();
+        if (m<10) {
+            m = '0'+m;
+        }
+        if (s<10) {
+            s = '0'+s;
+        }
+        var time = h+' : '+m+' : '+s +dm;
+        document.getElementById('liveclock').innerHTML = time;
+        t = setTimeout("showTime('"+param+"')",1000);
+    }
+
+    function switchTime(obj){
+        var id = obj.id;
+        if(t){
+            clearTimeout(t);
+        }
+        showTime(id);
+    }
+
+</SCRIPT>
+</body >
+</html>
+

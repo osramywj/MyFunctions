@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .hide{
+            display: none;
+        }
+        .main{
+            margin: auto;
+            width: 400px;
+            height: 200px;
+        }
+
+        .tab1 li{
+            float:left;
+            width: 98px;
+            height: 40px;
+            text-align: center;
+            border:1px solid #77776F;
+            cursor: pointer;
+        }
+        .tab1 .act{
+            border-bottom:none;
+        }
+        .tab1{
+            margin:0;
+            padding: 0;
+            position: relative;
+            margin-bottom: -2px;
+            height: 40px;
+            list-style: none;
+        }
+        .tab2{
+            margin:0;
+            padding: 0;
+            display: inline-block;
+            border:1px solid #77776F;
+            border-top:none;
+        }
+        .tab2 div{
+            width: 400px;
+            height:150px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+        <ul class="tab1">
+            <li class="act">选项1</li>
+            <li>选项2</li>
+            <li>选项3</li>
+            <li>选项4</li>
+        </ul>
+
+    <div class="tab2">
+        <div>内容1</div>
+        <div class="hide">内容2</div>
+        <div class="hide">内容3</div>
+        <div class="hide">内容4</div>
+    </div>
+</div>
+<script>
+    var tab1  = document.getElementsByClassName('tab1')[0];
+    var tab2  = document.getElementsByClassName('tab2')[0];
+    var len = tab1.getElementsByTagName('li').length;
+    var tab1_lis = tab1.getElementsByTagName('li');
+    var tab2_divs = tab2.getElementsByTagName('div');
+    for (var i=0;i<len;i++) {
+        tab1_lis[i].index = i;  //这里将i的值赋予给了li的index属性（自定义的），所以每个li 都有一个索引了；
+        tab1_lis[i].onclick = function () {
+            for (var j=0;j<len;j++) {
+                tab1_lis[j].className = '';
+                tab2_divs[j].className = 'hide';
+            }
+        tab1_lis[this.index].className= 'act';// this表示当前元素，this.index即当前元素的索引值；
+        tab2_divs[this.index].className = '';
+        }
+    }
+
+</script>
+</body>
+</html>
